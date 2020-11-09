@@ -181,3 +181,5 @@ my_array = []
 end 
   
   
+def player_stats (team_name)  
+  
