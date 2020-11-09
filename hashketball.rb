@@ -171,8 +171,8 @@ end
 def player_numbers (team_name)
   game_hash.each do |team, team_info|
     if team_info[:team_name] == team_name
-      team_info[:players].map do |jersey_number|
-        jersey_number[:number]
+      team_info[:players].map do |player, jersey|
+        jersey[:number]
       end 
     end 
   end 
