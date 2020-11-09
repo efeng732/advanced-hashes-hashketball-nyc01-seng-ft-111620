@@ -169,10 +169,11 @@ end
 end 
 
 def player_numbers (team_name)
+my_array = []   
   game_hash.each do |team, team_info|
     if team_info[:team_name] == team_name
-      team_info[:players].map do |player, jersey|
-        jersey[:number]
+      team_info[:players].each do |player, jersey|
+        my_array << 
       end 
     end 
   end 
