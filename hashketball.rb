@@ -201,7 +201,7 @@ def big_shoe_rebounds
       end 
     end 
   end 
-  shoe_size 
+  
 end 
   
   
